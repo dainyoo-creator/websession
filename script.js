@@ -87,8 +87,8 @@ function nextConfirm() {
 
 function escapeButton() {
   const btn = document.getElementById('yes-btn');
-  const x = Math.random() * 80 - 40;
-  const y = Math.random() * 80 - 40;
+  const x = Math.random() * 30 - 15;
+  const y = Math.random() * 30 - 15;
   btn.style.transform = `translate(${x}px, ${y}px)`;
 }
 
