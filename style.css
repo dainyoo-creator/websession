@@ -1,0 +1,23 @@
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+#screen-ending {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: none;
+  padding: 40px;
+}
+
+#screen-ending.active {
+  display: block;
+}
+
+progress {
+  width: 300px;
+}
