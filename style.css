@@ -1,23 +1,51 @@
-.screen {
-  display: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.screen.active {
-  display: block;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
 }
 
-#screen-ending {
-  background-color: #000;
-  color: #fff;
-  height: 100vh;
-  display: none;
-  padding: 40px;
+.table{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 0;
+    width: 100%;
+    text-align: center;
 }
 
-#screen-ending.active {
-  display: block;
+.row1{
+    padding: 16px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    color: white;
 }
 
-progress {
-  width: 300px;
+.row2{
+    padding: 16px;
+    border: 1px solid #000000;
+}
+
+.row3{
+    padding: 16px;
+    border: 1px solid #000000;
+}
+
+.row4{
+    padding: 16px;
+    border: 1px solid #000000;
+}
+
+.null{
+     padding: 16px;
+    border: 1px solid #000000;
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
