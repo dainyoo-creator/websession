@@ -1,23 +1,23 @@
 // 동물별 데이터 — img에 사진 주소, text에 직접 쓴 글을 넣으세요.
 const animalData = {
   "Munchkin": {
-    img: "1.png",
+    img: "images/1.png",
     text: "먼치킨의 다리는 몇cm일까요?"
   },
   "Duroc": {
-    img: "3.png",
+    img: "images/3.png",
     text: "....,,"
-  }
+  },
   "Bichon Frise": {
-    img: "2.png",
+    img: "images/2.png",
     text: "숑숑 털이 날린다,,"
-  }
+  },
    "Holland Lop": {
-    img: "4.png",
+    img: "images/4.png",
     text: "처진 귀 때문에 약간 불쌍해보이는 특징이 있습니다"
-  }
+  },
    "Syrian Hamster": {
-    img: "5.png",
+    img: "images/5.png",
     text: "뵤.. 나 아기 햄스터"
   }
 };
