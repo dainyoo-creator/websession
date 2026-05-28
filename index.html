@@ -1,8 +1,3 @@
-위처럼 동작해요. 칸을 클릭하면 팝업이 뜨고, 닫기 버튼이나 어두운 배경을 클릭하면 닫혀요. (Munchkin 칸만 예시로 글을 넣어 뒀어요.)
-이제 실제 파일에 넣을 수 있도록, 올려주신 코드를 그대로 살리면서 팝업 기능만 추가한 버전을 드릴게요. 원래 HTML 구조(row1~row4, null 클래스)는 거의 그대로 두고, 클릭 대상 칸에 동물 이름만 data-name으로 달았어요.
-핵심은 세 가지예요. HTML 끝에 팝업 창 영역(.modal)을 하나 추가하고, CSS에 팝업 스타일을 더하고, JS 파일에서 칸을 클릭하면 그 동물의 사진·글을 찾아 팝업에 채워 넣는 구조입니다.
-index.html — 표는 그대로, 클릭할 칸에 data-name 추가 + 맨 아래 팝업 영역 추가:
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,3 +53,50 @@ html
   <script src="script.js"></script>
 </body>
 </html>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Css Grid</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Animals...</h1>
+
+            <div class="table">
+                <div class="row1">🐱</div>
+                <div class="row1">🐶</div>
+                <div class="row1">🐷</div>
+                <div class="row1">🐦</div>
+                <div class="row1">🐹</div>
+                <div class="row1">🐰</div>
+
+
+                 <div class="null">Munchkin</div>
+                <div class="row2">Poodle</div>
+                <div class="row2">Pot-bellied Pig</div>
+                <div class="row2">Cockatiel</div>
+                <div class="null">Syrian Hamster</div>
+                <div class="row2">Netherland Dwarf</div>
+                
+
+                 <div class="row3">Siamese</div>
+                <div class="null">Bichon Frise</div>
+                <div class="row3">Berkshire</div>
+                <div class="row3">Budgie</div>
+                <div class="row3">Winter White</div>
+                <div class="null">Holland Lop</div>
+
+                 <div class="row4">Persian</div>
+                <div class="row4">Golden Retriever</div>
+                <div class="null">Duroc</div>
+                <div class="row4">Canary</div>
+                <div class="null">Roborovski</div>
+                <div class="row4">Lionhead</div>
+
+            </div>
+        </div>
+    </body>
+</html>
+
